@@ -61,10 +61,6 @@ void AllDialogues::SerializeVarDialogue(const Dialogue::VarDialogue &dial, Json:
 
 void AllDialogues::Deserialize(Json::Value &root)
 {
-/*	_test = root.get("test", "Empty").asString();
-	DeserializeVectorString(root, "allDialogues", _allVector);
-
-	DeserializeDialogue(root["dialogue"], _dialogue);*/
 	DeserializeVectorDialogue(root, "allDialogues", _allDialogues);
 }
 
@@ -107,6 +103,18 @@ void AllDialogues::DeserializeVarDialogue(const Json::Value &branch, Dialogue::V
 	dial._timerSound = branch.get("timerSound", "").asString();
 	dial._influence = branch.get("influence", "").asInt();
 	dial._next = branch.get("next", "").asString();
+}
+
+void AllDialogues::FindByIdDialogue(const std::string & id, Dialogue &dialogue)
+{
+	for (std::vector<Dialogue>::const_iterator memberIt = _allDialogues.begin(); memberIt != _allDialogues.end(); ++memberIt)
+	{
+		if ((*memberIt)._id == id)
+		{
+			dialogue = (*memberIt);
+		}
+	}
+
 }
 
 

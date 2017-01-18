@@ -5,7 +5,8 @@
 
 class AllDialogues : public IJsonSerializable
 {
-private :
+	//rechanger avec UE4
+public :
 	struct Dialogue
 	{
 	public:
@@ -51,11 +52,10 @@ public:
 	void			DeserializeVarDialogue(const Json::Value &branch, Dialogue::VarDialogue &dial);
 //	Dialogue		&DeserializeDialogue(Json::Value &root);
 
+	void			FindByIdDialogue(const std::string &id, Dialogue &dialogue);
+
 private :
 
-/*	std::string		_test;
-	std::vector<std::string> _allVector;
-	Dialogue		_dialogue;*/
 	std::vector<Dialogue> _allDialogues;
 	bool			_isParse;
 

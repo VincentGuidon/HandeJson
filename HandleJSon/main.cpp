@@ -21,6 +21,12 @@ int main(int argc, char **argv)
 
 	std::cout << "Result :\n" << output << std::endl;
 
+	AllDialogues::Dialogue dialogue;
+
+	allDialogues.FindByIdDialogue("24", dialogue);
+
+	std::cout << dialogue._id << std::endl;
+
 /*	HandleJson testClass;
 
 	testClass.init();
