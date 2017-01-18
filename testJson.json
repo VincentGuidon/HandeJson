@@ -1,0 +1,63 @@
+{
+  "Handle2": {
+    "testintA": 800,
+    "teststringA": 400
+  },
+  "testintA": 8,
+  "testfloatA": 1.23456789,
+  "teststringA": "bar",
+  "testboolA": false,
+  "stp": "prout",
+  "testVector": [
+    "marche",
+    "plsPose"
+  ],
+  "HandleJson": {
+    "Handle2": {
+      "testintA": 42,
+      "teststringA": 85
+    },
+    "testintA": 26,
+    "testfloatA": 3.1489,
+    "teststringA": "fooopo",
+    "testboolA": false,
+    "testVector": [
+      "plz",
+      "stp",
+      "walalalal"
+    ],
+    "HandleJson": {
+      "Handle2": {
+        "testintA": 50,
+        "teststringA": 40
+      },
+      "testintA": 42,
+      "testfloatA": 3.128,
+      "teststringA": "baka",
+      "testboolA": true,
+      "testVector": [
+        "foo",
+        "bar",
+        "walalalal",
+        "yeah"
+      ],
+      "HandleJson": {
+        "Handle2": {
+          "testintA": 50,
+          "teststringA": 40
+        },
+        "testintA": 42,
+        "testfloatA": 3.128,
+        "teststringA": "baka",
+        "testboolA": true,
+        "testVector": [
+          "foo",
+          "bar",
+          "walalalal",
+          "yeah"
+        ],
+        "HandleJson": "NULL"
+      }
+    }
+  }
+}

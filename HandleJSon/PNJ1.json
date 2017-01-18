@@ -1,0 +1,66 @@
+{
+  "allDialogues" : [
+	{
+  	  "id" : "1528",
+	  "containerDialogue1" : {
+		"dialogue" : "Bonjour je suis un paysan\n",
+		"pathSound" : "paysan.mp3",
+		"timerSound" : "15.2514",
+		"influence" : 157,
+		"next" : "1529"
+	},
+	  "containerDialogue2" : {
+		"dialogue" : "Ola, Achetez mon poissons frais",
+		"pathSound" : "PoissonFrai.mp3",
+		"timerSound" : "1.5",
+		"influence" : 0,
+		"next" : "1530"
+	},
+  	"containerDialogue3" : {
+		"dialogue" : "J'ai une quête pour toi",
+		"pathSound" : "quete.mp3",
+		"timerSound" : "12.15",
+		"influence" : 0,
+		"next" : "1531"
+	},
+    "containerDialogue4" : {
+		"dialogue" : "",
+		"pathSound" : "",
+		"timerSound" : "",
+		"influence" : 0,
+		"next" : ""
+	}
+  },
+  {
+  	  "id" : "24",
+	  "containerDialogue1" : {
+		"dialogue" : "Hey pigno, viens la, aller viensn\n",
+		"pathSound" : "pigno.mp3",
+		"timerSound" : "12",
+		"influence" : 140,
+		"next" : "28"
+	},
+	  "containerDialogue2" : {
+		"dialogue" : "Ola, Achetez mon poissons frais",
+		"pathSound" : "PoissonFrai.mp3",
+		"timerSound" : "1.5",
+		"influence" : 0,
+		"next" : "1530"
+	},
+  	"containerDialogue3" : {
+		"dialogue" : "J'ai une quête pour toi",
+		"pathSound" : "quete.mp3",
+		"timerSound" : "12.15",
+		"influence" : 0,
+		"next" : "1531"
+	},
+    "containerDialogue4" : {
+		"dialogue" : "",
+		"pathSound" : "",
+		"timerSound" : "",
+		"influence" : 0,
+		"next" : ""
+	}
+  }
+  ]
+}
